@@ -1,0 +1,32 @@
+# .gitignore for Robot Framework E2E Automation Project
+
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Robot Framework output files
+output.xml
+report.html
+log.html
+*.png
+*.avi
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# MacOS resource forks
+*.AppleDouble/
